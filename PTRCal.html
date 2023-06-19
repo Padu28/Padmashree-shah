@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Calculate Simple Interest</title>
+    </head>
+    <body>
+        <script>
+            var temp1=prompt("Principal Amount");
+            var P=parseInt(temp1);
+            var temp2=prompt("Rate Of Interest");
+            var R=parseFloat(temp2);
+            var temp3=prompt("Time");
+            var T=parseInt(temp3);
+            var SI=(P*R*T)/100;
+            document.writeln("Simple Interest: "+SI+"<br>");
+            document.writeln("Amount: "+(P+SI));
+        </script>
+    </body>
+</html>

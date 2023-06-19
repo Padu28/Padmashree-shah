@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <Title>Conversion Of Days In Years And Weeks</Title>
+    </head>
+    <body>
+        <script>
+            var No_of_days_in_week=7;
+            function find(number_of_Days){
+            var year,week,days;
+            year=parseInt(number_of_Days/365);
+            week=parseInt((number_of_days %365)/No_of_days_in_week);
+            days=(number_of_days%365)%No_of_days_in_week;
+            document.writeln("years:"+year+"<br>");
+            document.writeln("weeks:"+week+"<br>");
+            document.writeln("days:"+days+"<br>");}
+            var number_of_days=464;
+            find(number_of_days);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>To Calculate Total,Average And Percentage</title>
+    </head>
+    <body>
+        <script>
+            var temp1=prompt("Enter ,Mark1");
+            var M1=parseInt(temp1);
+            var temp2=prompt("Enter Mark2");
+            var M2=parseInt(temp2);
+            var temp3=prompt("Enter Mark3");
+            var M3=parseInt(temp3);
+            var temp4=prompt("Enter Mark4");
+            var M4=parseInt(temp4);
+            var temp5=prompt("Enter Mark5");
+            var M5=parseInt(temp5);
+            document.writeln("Mark 1: "+M1+"<br>");
+            document.writeln("Mark 2: "+M2+"<br>");
+            document.writeln("Mark 3: "+M3+"<br>");
+            document.writeln("Mark 4: "+M4+"<br>");
+            document.writeln("Mark 5: "+M5+"<br>");
+            var Total=M1+M2+M3+M4+M5;
+            document.writeln("total marks: "+Total+"<br>");
+            var Avg=Total/5;
+            document.writeln("average marks: "+Avg+"<br>");
+            var Per=(Total/500)*100;
+            document.writeln("percentage: "+Per);
+        </script>
+    </body>
+</html>
